@@ -1,12 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   height: 10vh;
   background-color: var(--texas-red);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
+.title {
+  color: var(--texas-white);
+  font-size: 2rem;
+  margin-left: 40%;
+}
 .bg-head {
   margin-right: 20px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   gap: 15px;
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--texas-red);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  color: var(--texas-white);
 }

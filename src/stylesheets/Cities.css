@@ -1,74 +1,80 @@
+h3 {
+  text-align: center;
+  color: #c8102e;
+}
 
-  h3 {
-      text-align: center;
-  }
-  p{
-      text-align: center;
-  
-  }
-  h2{
-      text-align: center;
-  }
-  
-  nav {
-    display: inline-block;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      background-color: lightgray;
-      margin-top: 15px;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-radius: 1.4rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    overflow: hidden;
-    height: 341px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+p {
+  text-align: center;
+  color: #0052a5;
+}
 
-  }
-  
-  .card-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+h2 {
+  text-align: center;
+  color: #c8102e;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  color: var(--texas-blue);
+  margin-top: 0;
+  padding-top:0;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--texas-blue);
+  margin-top: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1.4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
   .card img {
     width: 100%;
@@ -77,6 +83,7 @@
     width: 100%;
     max-height: 200px;
     object-fit: contain;
+    border-radius: 1.5rem;
   }
   
   .card h3 {
@@ -91,4 +98,7 @@
 
   .link {
     color: black;
+  }
+  h1 {
+    margin-top: 0;
   }

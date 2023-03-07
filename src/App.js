@@ -11,6 +11,7 @@ function App() {
   return (
    <Router>
       <header className="header">
+        <h1 className='title'>All About Texas</h1>
         <div className="bg-head">
           <Link to="/">Home</Link>
           <Link to="/cities">Cities</Link>
