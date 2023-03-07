@@ -1,11 +1,11 @@
-/* Colors */
+
 :root {
     --texas-red: #bf0a30;
     --texas-blue: #002868;
     --texas-white: #ffffff;
   }
   
-  /* Main section */
+
   main {
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@
     padding: 2rem;
   }
   
-  /* Quick links aside */
+ 
   .ql {
     width: 10vw;
     background-color: var(--texas-red);
@@ -29,7 +29,6 @@
     color: var(--texas-white);
   }
   
-  /* State tourism section */
   section {
     width: 60vw;
   }
@@ -55,7 +54,7 @@
   }
   
   tr:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: var(--texas-white);
   }
   
   /* Quick facts aside */
@@ -78,7 +77,9 @@
     position: absolute;
     bottom: 0;
     left: 86%;
-    transform: translateX(-50%);
+    transform: 
+      translateX(-40%)
+      translateY(-40%);
     border-radius: 50%;
     height: 200px;
     width: 200px;

@@ -19,6 +19,7 @@ const Home = () => {
             <li><Link className="color" to="/cities/houston">Houston</Link></li> <br/>
             <li><Link className="color" to="/cities/san-antonio">San Antonio</Link></li> <br/>
           </ul>
+          <br/>
           <p>Check out our <a className="color" href="https://www.traveltexas.com/" target="_blank" rel="noreferrer">official Texas tourism website</a> for more information.</p>
         </aside>
 
@@ -73,13 +74,13 @@ const Home = () => {
 
         <aside className='qf'>
           <h3>Quick Facts</h3>
-          <ul>
+          <ol>
             <li>Capital: {texasData.capital}</li> <br/>
             <li>Largest City: {texasData.largestCity}</li> <br/>
             <li>Population: {texasData.population}</li> <br/>
             <li>State Bird: {texasData.stateBird}</li> <br/>
             <li>State Flower: {texasData.stateFlower}</li>
-          </ul>
+          </ol>
 
           <img id='txSeal' src={texasData.img} alt='Texas state seal'/>
         </aside>

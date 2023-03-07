@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { cityData } from "../data/cities";
 import { useEffect } from "react";
+import '../stylesheets/City.css'
 
 const City = () => {
   const { city } = useParams();
@@ -14,9 +15,9 @@ const City = () => {
 
   return (
     <div>
-      <main>
-        <section>
-          <h2>{cityInfo.name}, Texas</h2>
+      <main className="cityMain">
+        <section className="citySection">
+          <h2 className="cityName">{cityInfo.name}, Texas</h2>
           <article>
             <h3>City Overview</h3>
             <p>{cityInfo.overview}</p>
@@ -33,26 +34,26 @@ const City = () => {
           </article>
         </section>
 
-        <aside>
-          <div className="aside-content">
+        <aside className="cityAside">
+          <div className="asideContent">
            
             <h3>Quick Facts</h3>
-            <ul>
+            <ul className="cityQL">
               <li>
-                <strong>City Population:</strong> {cityInfo.population}
+                City Population: {cityInfo.population}
               </li>
               <li>
-                <strong>Year Incorporated:</strong>{" "}
+                Year Incorporated:{" "}
                 {cityInfo.yearIncorporated}
               </li>
               <li>
-                <strong>Region:</strong> {cityInfo.region}
+                Region: {cityInfo.region}
               </li>
               <li>
-                <strong>Classification:</strong> {cityInfo.classification}
+                Classification: {cityInfo.classification}
               </li>
               <li>
-                <strong>Average Income:</strong> {cityInfo.averageIncome}
+                Average Income: {cityInfo.averageIncome}
               </li>
             </ul>
           </div>
