@@ -32,6 +32,7 @@ const City = () => {
              {cityInfo.attractions}
             </p>
           </article>
+          <img className="cityImg" src={cityInfo.img} alt={cityInfo.name} />
         </section>
 
         <aside className="cityAside">

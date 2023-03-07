@@ -18,6 +18,14 @@
     line-height: 1.5rem;
 }
 
+.cityImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-left: 42%
+}
+
 .cityName {
     margin: 30px
 }

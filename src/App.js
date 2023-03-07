@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Views/Home';
 import Cities from './Views/Cities';
 import City from './Views/City';
-// import Sources from './Views/Sources';
+import Sources from './Views/Sources';
 import Contact from './Views/Contact';
 
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cities" element={<Cities />} />
         <Route path="/cities/:city" element={<City />} />
-        {/* <Route path="/sources" element={<Sources />} /> */}
+        <Route path="/sources" element={<Sources />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
