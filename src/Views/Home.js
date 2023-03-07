@@ -80,6 +80,8 @@ const Home = () => {
             <li>State Bird: {texasData.stateBird}</li> <br/>
             <li>State Flower: {texasData.stateFlower}</li>
           </ul>
+
+          <img id='txSeal' src={texasData.img} alt='Texas state seal'/>
         </aside>
       </main>
     </div>

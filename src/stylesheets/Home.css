@@ -73,4 +73,14 @@
   .qf li {
     margin: 1rem 0;
   }
-  
+
+  #txSeal {
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+ 
